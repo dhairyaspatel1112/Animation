@@ -1,0 +1,62 @@
+.element {
+    transform: translate(50px,100px);
+}
+.element{
+    transform: translateX(50px);
+    transform: translateY(100px);
+}
+.element{
+    transform: translate(50%,50%);
+    transform: translate(100px, 100px);
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.element{
+    border: 2px solid black;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 0px 30px 30px 30px;
+    margin: 100px;
+    outline: dotted black;
+    outline-offset: 50px;
+}
+.element:hover{
+    
+    transform: scale(1.2);
+    transition: 1s;
+}
+.element{
+    transform: rotate(45deg);
+    transform: rotate(-45deg);
+}
+.element{
+    transform: rotate(360deg);
+}.element:hover{
+    transform: rotate(180deg);
+    transition: 2s;
+    transform: rotate(-180deg);
+    transition: 2s;
+    animation: spin 3s linear infinite;
+}
+.element:active{
+    transform: rotate(-180deg);
+    transition: 2s;
+    transform: rotate(180deg);
+    transition: 2s;
+    animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

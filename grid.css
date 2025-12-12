@@ -1,0 +1,24 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.item{
+    padding: 20px;
+    border: solid 5px rgb(41, 1, 200);
+    border-radius: 50px;
+    text-align: center;
+    background-color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: transform 0.3s,ease box-shadow 0.3s ease;
+}
+.item:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px gray;
+    background-color: rgb(235, 214, 122);
+}
+.item:active{
+    background-color: lightgrey;
+    font-style: oblique;
+}

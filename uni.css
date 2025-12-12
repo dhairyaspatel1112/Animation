@@ -1,0 +1,11 @@
+*{
+    color: darkred;
+    background-color: rgb(245, 245, 220,0.4);
+    text-align: center;
+    text-decoration: solid;
+    font-weight: 600;
+    font-size: larger;
+    border: 5px solid yellow;
+    border-radius: 50px;
+    
+}

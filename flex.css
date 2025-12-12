@@ -1,0 +1,19 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+    gap: 40px;
+}
+.item{
+    padding: 20px;
+    border: solid 5px darkolivegreen;
+    width: 100px;
+    text-align: center;
+    transition: transform 0.4s ease;
+    background-color: lightgrey;
+}
+.item:hover{
+    transform: scale(1.12);
+    background-color: khaki;
+}
